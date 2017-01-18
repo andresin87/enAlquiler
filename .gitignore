@@ -34,3 +34,6 @@ bower_components/
 
 # MacOS garbage
 .DS_Store
+
+# Dist
+dist
