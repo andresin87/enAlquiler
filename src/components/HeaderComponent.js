@@ -2,7 +2,7 @@
 
 import React from 'react';
 import AppBar from 'material-ui/AppBar';
-import { grey100 } from 'material-ui/styles/colors'
+import { grey100 } from 'material-ui/styles/colors';
 
 require('styles//Header.scss');
 
@@ -14,6 +14,7 @@ class HeaderComponent extends React.Component {
       <AppBar
         style={{
           backgroundColor: grey100,
+          padding: 0
         }}
         title={
           <img
@@ -21,7 +22,7 @@ class HeaderComponent extends React.Component {
             style={{
               height: 48,
               marginTop: 10,
-              marginLeft: 30,
+              marginLeft: '10%',
             }}
           />
         }
