@@ -6,6 +6,20 @@ let webpack = require('webpack');
 let baseConfig = require('./base');
 let defaultSettings = require('./defaults');
 
+baseConfig.output = {
+  path: path.join(__dirname, '/../dist/assets'),
+  filename: 'app.js',
+  publicPath: './' + defaultSettings.publicPath
+};
+baseConfig.devServer = {
+  contentBase: './src/',
+  historyApiFallback: true,
+  hot: true,
+  port: defaultSettings.port,
+  publicPath: './' + defaultSettings.publicPath,
+  noInfo: false
+};
+
 // Add needed plugins here
 let BowerWebpackPlugin = require('bower-webpack-plugin');
 
