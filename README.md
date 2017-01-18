@@ -1,4 +1,4 @@
-# enAlquiler
+![enAlquiler](https://gitcdn.xyz/repo/andresin87/enAlquiler/master/assets/enAlquiler.svg)
 
 ## EJERCICIO JS DEVELOPER
 Esta prueba tiene como finalidad evaluar las habilidades de front, más concretamente de  programación en Javascript, del candidato.
