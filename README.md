@@ -41,4 +41,4 @@ Si no la has finalizado completamente no te preocupes, envíanos lo que tengas y
 
 
 ## ![Yeoman](https://raw.githack.com/andresin87/enAlquiler/master/assets/Yeoman.svg) BOILERPLATE
-[https://github.com/leftstick/generator-material-react](https://github.com/leftstick/generator-material-react) |
+[https://github.com/leftstick/generator-material-react](https://github.com/leftstick/generator-material-react)
