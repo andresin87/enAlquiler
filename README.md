@@ -15,20 +15,23 @@ Se te proporcionará una API
 
 Esta API devolverá un listado de viviendas con una serie de datos, incluyendo la imágen, y descripción (Si vas a la URL podrás ver todos estos datos). Se pide crear una aplicación que lea el listado de viviendas de la api y renderice por cada vivienda obtenida de la llamada un bloque similar al siguiente:
 
-[Image here]
+![image00](https://gitcdn.xyz/repo/andresin87/enAlquiler/master/assets/image00.png)
 
 La aplicación deberá:
 - Mostrar un elemento select con label “Ordenar por”, que contendrá los siguientes valores:
- - Orden por defecto: Cuando esté seleccionado mostrará las viviendas sin ningún orden en particular, conforme lleguen de la petición a la API.
- - Orden por precio ASC: Ordenará las viviendas por precio ascendente.
- - Orden por precio DESC: Ordenará las viviendas por precio descendente.
- - Orden por número de habitaciones: Ordenará las viviendas por número de habitaciones de mayor a menor.
+  - Orden por defecto: Cuando esté seleccionado mostrará las viviendas sin ningún orden en particular, conforme lleguen de la petición a la API.
+  - Orden por precio ASC: Ordenará las viviendas por precio ascendente.
+  - Orden por precio DESC: Ordenará las viviendas por precio descendente.
+  - Orden por número de habitaciones: Ordenará las viviendas por número de habitaciones de mayor a menor.
 - Deberá haber también un campo de texto con etiqueta “Buscar”. Si está vacío se mostrarán todas las viviendas, si tiene texto se mostrarán únicamente las viviendas cuyo título sea una subcadena del texto que haya en el campo.
+
 
 #### Duración y envío de la prueba
 La duración de la prueba es de 4 horas. Una vez la hayas finalizado envianosla al siguiente mail: [xxxx@enalquiler.com](xxxx@enalquiler.com)
 
 Si no la has finalizado completamente no te preocupes, envíanos lo que tengas y nosotros lo evaluaremos ;)
+
+![image01](https://gitcdn.xyz/repo/andresin87/enAlquiler/master/assets/image01.jpg)
 
 ## TECNOLOGIAS
 
