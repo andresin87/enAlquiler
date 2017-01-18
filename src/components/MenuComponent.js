@@ -23,7 +23,7 @@ class MenuComponent extends React.Component {
         className="menu-component"
         style={{
           float: 'left',
-          width: '100%'
+          width: '80%'
         }}
 
       >

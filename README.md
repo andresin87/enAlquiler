@@ -40,7 +40,7 @@ Si no la has finalizado completamente no te preocupes, envíanos lo que tengas y
 | ![EcmaScript](https://gitcdn.xyz/repo/vorillaz/devicons/master/!SVG/js_badge.svg) | ES2017 |
 | ![Node](https://gitcdn.xyz/repo/vorillaz/devicons/master/!SVG/nodejs_small.svg) | 6.3.1 |
 | ![npm](https://gitcdn.xyz/repo/vorillaz/devicons/master/!SVG/npm.svg) | 3.10.3 |
-| ![react](https://gitcdn.xyz/repo/vorillaz/devicons/master/!SVG/react.svg) |  |
+| ![react](https://gitcdn.xyz/repo/vorillaz/devicons/master/!SVG/react.svg) | 15.0.0 |
 
 
 ## ![Yeoman](https://raw.githack.com/andresin87/enAlquiler/master/assets/Yeoman.svg) BOILERPLATE
@@ -49,3 +49,9 @@ Si no la has finalizado completamente no te preocupes, envíanos lo que tengas y
 
 ## ENALCE
 [https://andresin87.github.io/enAlquiler/](https://andresin87.github.io/enAlquiler/)
+
+## Soporte
+
+![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![IE](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Internet_Explorer_10_logo.svg/48px-Internet_Explorer_10_logo.svg.png) |
+--- | --- | --- | --- | --- | --- |
+Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 8+ ✔ |

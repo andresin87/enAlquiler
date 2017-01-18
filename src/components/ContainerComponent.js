@@ -1,19 +1,37 @@
 'use strict';
 
 import React from 'react';
-import RaisedButton from 'material-ui/RaisedButton';
 import Paper from 'material-ui/Paper';
 
-import Menu from './MenuComponent';
+import Card from './CardComponent';
 
 require('styles//Container.scss');
-let yeomanImage = require('../images/yeoman.png');
+
+const blankImage = require('../images/blank.svg');
+const axios = require('axios');
 
 class ContainerComponent extends React.Component {
+
+  componentWillMount() {
+    this.setState({data: this.props.data});
+    axios.get('http://private-d5eaa-test9068.apiary-mock.com/properties')
+    .then((response) => {
+      console.log(response.data);
+      console.log(response.data && response.data.success);
+      if (response.data && response.data.success) {
+        this.setState({data: response.data.properties});
+        console.log(this);
+      }
+
+    })
+    .catch((error) => {
+      // console.log(error);
+    });
+  }
+
   render() {
     return (
       <div className="container">
-        <Menu/>
         <Paper
           className="index"
           zDepth={0}
@@ -21,10 +39,17 @@ class ContainerComponent extends React.Component {
             width: '100%'
           }}
         >
-          <img src={yeomanImage} alt="Yeoman Generator" />
-          <div style={{}}>
-            <RaisedButton label="OK" primary={true} />
-          </div>
+          {(() => {
+            let r = [];
+            this.state.data.forEach((e, i) => {
+              r.push(
+                <Card
+                  key={`card-${i}`}
+                  {...e}
+                />);
+            });
+            return r;
+          })()}
         </Paper>
       </div>
     );
@@ -34,7 +59,11 @@ class ContainerComponent extends React.Component {
 ContainerComponent.displayName = 'ContainerComponent';
 
 // Uncomment properties you need
-// ContainerComponent.propTypes = {};
-// ContainerComponent.defaultProps = {};
+ContainerComponent.propTypes = {
+  data: React.PropTypes.array,
+};
+ContainerComponent.defaultProps = {
+  data: [{},{},{}],
+};
 
 export default ContainerComponent;
