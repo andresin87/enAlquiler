@@ -40,5 +40,5 @@ Si no la has finalizado completamente no te preocupes, envíanos lo que tengas y
 | ![react](https://gitcdn.xyz/repo/vorillaz/devicons/master/!SVG/react.svg) |  |
 
 
-## BOILERPLATE
-| ![Yeoman](https://raw.githack.com/andresin87/enAlquiler/master/assets/Yeoman.svg) | [https://github.com/leftstick/generator-material-react](https://github.com/leftstick/generator-material-react) |
+## ![Yeoman](https://raw.githack.com/andresin87/enAlquiler/master/assets/Yeoman.svg) BOILERPLATE
+[https://github.com/leftstick/generator-material-react](https://github.com/leftstick/generator-material-react) |
