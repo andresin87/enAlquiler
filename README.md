@@ -29,3 +29,12 @@ La aplicación deberá:
 La duración de la prueba es de 4 horas. Una vez la hayas finalizado envianosla al siguiente mail: [xxxx@enalquiler.com](xxxx@enalquiler.com)
 
 Si no la has finalizado completamente no te preocupes, envíanos lo que tengas y nosotros lo evaluaremos ;)
+
+## TECNOLIGIAS
+
+|   | Versión |
+|---|---|
+| ![EcmaScript](https://gitcdn.xyz/repo/vorillaz/devicons/master/!SVG/js_badge.svg) | ES2017 |
+| ![Node](https://gitcdn.xyz/repo/vorillaz/devicons/master/!SVG/nodejs_small.svg) | 6.3.1 |
+| ![npm](https://gitcdn.xyz/repo/vorillaz/devicons/master/!SVG/npm.svg) | 3.10.3 |
+| ![react](https://gitcdn.xyz/repo/vorillaz/devicons/master/!SVG/react.svg) |  |
