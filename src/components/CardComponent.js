@@ -19,6 +19,7 @@ class CardComponent extends React.Component {
           padding: '10px',
           minHeight: 350,
           display: 'inline-block',
+          width: '100%',
         }}
         zDepth={1}
       >
