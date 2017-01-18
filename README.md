@@ -30,7 +30,7 @@ La duración de la prueba es de 4 horas. Una vez la hayas finalizado envianosla 
 
 Si no la has finalizado completamente no te preocupes, envíanos lo que tengas y nosotros lo evaluaremos ;)
 
-## TECNOLIGIAS
+## TECNOLOGIAS
 
 |   | Versión |
 |---|---|
