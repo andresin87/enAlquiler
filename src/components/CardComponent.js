@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import { Card, /*CardActions,*/ CardHeader, CardTitle, CardText } from 'material-ui/Card'
+import { Card } from 'material-ui/Card'
 
 require('styles//Card.scss');
 
@@ -19,7 +19,7 @@ class CardComponent extends React.Component {
           padding: '10px',
           minHeight: 350,
           display: 'inline-block',
-          width: '100%',
+          width: '100%'
         }}
         zDepth={1}
       >
@@ -28,7 +28,7 @@ class CardComponent extends React.Component {
           style={{
             width: '100%',
             position: 'relative',
-            height: 47,
+            height: 47
           }}
         >
           <a href="#">
@@ -36,7 +36,7 @@ class CardComponent extends React.Component {
               margin: '10px 0',
               position: 'absolute',
               left: 0,
-              color: enAlquilerColor,
+              color: enAlquilerColor
             }} >
               {this.props.title}
             </h2>
@@ -44,7 +44,7 @@ class CardComponent extends React.Component {
           <h2 id="price" style={{
             margin: '10px 0',
             position: 'absolute',
-            right: 20,
+            right: 20
           }} >
             {this.props.price} €/mes
           </h2>
@@ -53,7 +53,7 @@ class CardComponent extends React.Component {
           style={{
             width: '100%',
             float: 'inherit',
-            height: 'auto',
+            height: 'auto'
           }}
         >
           <div
@@ -61,7 +61,7 @@ class CardComponent extends React.Component {
               height: 350 - (20+47),
               width: '40%',
               background: null,
-              float: 'left',
+              float: 'left'
             }}
           >
             <img
@@ -69,7 +69,9 @@ class CardComponent extends React.Component {
               style={{
                 width: '100%',
                 height: '100%',
-                margin: 0
+                margin: 0,
+                backgroundImage: `url("${blankImage}")`,
+                backgroundSize: 'cover'
               }}
             />
           </div>
@@ -77,13 +79,13 @@ class CardComponent extends React.Component {
             style={{
               width: '50%',
               float: 'left',
-              padding: '0 5% 10px 5%',
+              padding: '0 5% 10px 5%'
             }}
           >
             <div
               id="highights"
               style={{
-                fontWeight: 'bold',
+                fontWeight: 'bold'
               }}
             >
               {this.props.surface}m<sup>2</sup> | {this.props.rooms} Habitaciones.
@@ -107,19 +109,19 @@ CardComponent.propTypes = {
   title: React.PropTypes.string,
   surface: React.PropTypes.oneOfType([
     React.PropTypes.string,
-    React.PropTypes.number,
+    React.PropTypes.number
   ]),
   rooms: React.PropTypes.oneOfType([
     React.PropTypes.string,
-    React.PropTypes.number,
+    React.PropTypes.number
   ]),
   price: React.PropTypes.oneOfType([
     React.PropTypes.string,
-    React.PropTypes.number,
+    React.PropTypes.number
   ]),
   image: React.PropTypes.string,
   thumb: React.PropTypes.string,
-  description: React.PropTypes.string,
+  description: React.PropTypes.string
 };
 
 CardComponent.defaultProps = {
@@ -128,7 +130,7 @@ CardComponent.defaultProps = {
   rooms: '?',
   price: '???',
   image: blankImage,
-  thumb: null,
+  thumb: null
 };
 
 export default CardComponent;

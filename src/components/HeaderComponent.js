@@ -22,7 +22,7 @@ class HeaderComponent extends React.Component {
             style={{
               height: 48,
               marginTop: 10,
-              marginLeft: '10%',
+              marginLeft: '10%'
             }}
           />
         }
