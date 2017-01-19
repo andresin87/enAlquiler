@@ -25,7 +25,7 @@ class AppComponent extends React.Component {
 
   componentWillMount() {
     this.setState({data: this.props.data});
-    axios.get('http://private-d5eaa-test9068.apiary-mock.com/properties')
+    axios.get('https://private-d5eaa-test9068.apiary-mock.com/properties')
       .then((response) => {
         if (response.data && response.data.success) {
           this.setState({data: response.data.properties});
