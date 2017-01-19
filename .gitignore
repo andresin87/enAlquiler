@@ -36,4 +36,9 @@ bower_components/
 .DS_Store
 
 # Dist
-dist
+dist/**/*.js
+dist/**/*.html
+dist/**/*.svg
+dist/**/*.png
+dist/**/*.jpg
+dist/**/*.jpeg
