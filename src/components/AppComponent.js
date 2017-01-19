@@ -154,7 +154,7 @@ class AppComponent extends React.Component {
               float: 'right'
             }}
           >
-            Andrés Lucas Enciso - 2017
+            Andrés Lucas Enciso - Enero 2017.
           </div>
         </div>
       </div>
